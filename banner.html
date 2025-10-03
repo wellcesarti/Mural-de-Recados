@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{   
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+        .banner{
+            width: 100%; 
+            /* Width - Largura */
+            height: 500px; 
+            /* Height - Altura */
+            background-color: #000;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            gap: 48px;
+        }
+        .texto {
+            color: #fff;
+        }
+        h1 {
+            font-size: 48px;
+        }
+        p{
+            font-size: 20px;
+        }
+        .container {
+            width: 540px;
+            display: flex;
+            flex-direction: column;
+            align-items: start;
+            justify-content: center;
+            /* background-color: red; */
+        }
+        img {
+            width: 100%;
+        }
+        .image {
+            width: 540px;
+            /* background-color: aqua; */
+        }
+        button {
+            border: 1px solid #fff;
+            padding: 12px 16px;
+            font-size: 16px;
+            transition: all 0.3s;
+        }
+        button:hover {
+            background-color: #000;
+            color: #fff;
+            transition: all 0.3s;
+        }
+        .botao2 {
+            background-color: #000;
+            color: #fff;
+        }
+        .botao2:hover{
+            background-color: #fff;
+            color: #000;
+            transition:all 0.3s;
+        }
+        
+    </style>
+</head>
+<body>
+    <div class="banner">
+        <div class="container">
+            <div class="texto">
+                <h1>Até 1 TB de armazenamento</h1>
+                <p>Armazene tudo com 12 GB de memória e até 256 GB, 512 GB ou 1 TB de armazenamento.<sup>26</sup></p>
+            </div>  
+            <div class="botoes">
+                <button>Compre Agora</button>
+                <button class="botao2">Outras Linhas</button>
+            </div>
+        </div>
+        <div class="image">
+            <img src="https://images.samsung.com/br/smartphones/galaxy-s25-ultra/images/galaxy-s25-ultra-features-storage.jpg?imbypass=true" alt="">
+        </div>
+    </div>
+</body>
+</html>
